@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title> Index </title>
+    <style type="text/css">
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, Sans-Serif;
+        }
+
+        p {
+            text-indent: 20px;
+        }
+
+    </style>
+</head>
+
+<body bgcolor="#ffffcc" text="#000000">
+  <header>
+<% include ../views/partials/header %>
+</header>
+
+<main>
+<div class="jumbotron">
+  <h1>This is great</h1>
+  <p>Welcome to templating using EJS</p>
+  <p>We're passed drinks from app.js: <%= tagline %></p>
+</div>
+</main>
+
+<footer>
+<% include ../views/partials/footer %>
+</footer>
+
+</body>
+
+</html>
